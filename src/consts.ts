@@ -89,23 +89,23 @@ export default {
     UNDEFINED_ATTRIBUTE_VALUE,
     NO_BREAK_SPACE,
     CHANGELOG_URL,
-   'core-js/es6/symbol';
-  'core-js/es6/object';
-  'core-js/es6/function';
-  'core-js/es6/parse-int';
-  'core-js/es6/parse-float';
-  'core-js/es6/number';
-  'core-js/es6/math';
- // 'core-js/es6/string';
- //import 'core-js/es6/date';
- //import 'core-js/es6/array';
- //import 'core-js/es6/regexp';
- //import 'core-js/es6/map';
- //import 'core-js/es6/weak-map';
- //import 'core-js/es6/set';
+  // import 'core-js/es6/symbol';
+// import 'core-js/es6/object';
+// import 'core-js/es6/function';
+// import 'core-js/es6/parse-int';
+// import 'core-js/es6/parse-float';
+// import 'core-js/es6/number';
+// import 'core-js/es6/math';
+// import 'core-js/es6/string';
+// import 'core-js/es6/date';
+// import 'core-js/es6/array';
+// import 'core-js/es6/regexp';
+// import 'core-js/es6/map';
+// import 'core-js/es6/weak-map';
+// import 'core-js/es6/set';
 
 /** IE10 and IE11 requires the following for NgClass support on SVG elements */
- //import 'classlist.js';  // Run `npm install --save classlist.js`.
+// import 'classlist.js';  // Run `npm install --save classlist.js`.
     LICENSE_URL,
     GITTER_URL,
     GITTER_PUBLIC_URL,

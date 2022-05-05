@@ -17,18 +17,6 @@ const SHARE_MOUNT_GUIDE_URL =
 const NUCLIO_GUIDE =
     'https://openvinotoolkit.github.io/cvat//docs/administration/advanced/installation_automatic_annotation/';
 const CANVAS_BACKGROUND_COLORS = ['#ffffff', '#f1f1f1', '#e5e5e5', '#d8d8d8', '#CCCCCC', '#B3B3B3', '#999999'];
-const NEW_LABEL_COLOR = '#b3b3b3';
-const LATEST_COMMENTS_SHOWN_QUICK_ISSUE = 3;
-const QUICK_ISSUE_INCORRECT_POSITION_TEXT = 'Wrong position';
-const QUICK_ISSUE_INCORRECT_ATTRIBUTE_TEXT = 'Wrong attribute';
-const DEFAULT_PROJECT_SUBSETS = ['Train', 'Test', 'Validation'];
-const INTEL_TERMS_OF_USE_URL = 'https://www.intel.com/content/www/us/en/legal/terms-of-use.html';
-const INTEL_COOKIES_URL = 'https://www.intel.com/content/www/us/en/privacy/intel-cookie-notice.html';
-const INTEL_PRIVACY_URL = 'https://www.intel.com/content/www/us/en/privacy/intel-privacy-notice.html';
-const OPENVINO_URL = 'https://docs.openvino.ai/latest/index.html';
-const DEFAULT_AWS_S3_REGIONS: string[][] = [
-    ['us-east-1', 'US East (N. Virginia)'],
-    ['us-east-2', 'US East (Ohio)'],
   // import 'core-js/es6/symbol';
 // import 'core-js/es6/object';
 // import 'core-js/es6/function';
@@ -46,6 +34,18 @@ const DEFAULT_AWS_S3_REGIONS: string[][] = [
 
 /** IE10 and IE11 requires the following for NgClass support on SVG elements */
 // import 'classlist.js';  // Run `npm install --save classlist.js`.
+const NEW_LABEL_COLOR = '#b3b3b3';
+const LATEST_COMMENTS_SHOWN_QUICK_ISSUE = 3;
+const QUICK_ISSUE_INCORRECT_POSITION_TEXT = 'Wrong position';
+const QUICK_ISSUE_INCORRECT_ATTRIBUTE_TEXT = 'Wrong attribute';
+const DEFAULT_PROJECT_SUBSETS = ['Train', 'Test', 'Validation'];
+const INTEL_TERMS_OF_USE_URL = 'https://www.intel.com/content/www/us/en/legal/terms-of-use.html';
+const INTEL_COOKIES_URL = 'https://www.intel.com/content/www/us/en/privacy/intel-cookie-notice.html';
+const INTEL_PRIVACY_URL = 'https://www.intel.com/content/www/us/en/privacy/intel-privacy-notice.html';
+const OPENVINO_URL = 'https://docs.openvino.ai/latest/index.html';
+const DEFAULT_AWS_S3_REGIONS: string[][] = [
+    ['us-east-1', 'US East (N. Virginia)'],
+    ['us-east-2', 'US East (Ohio)'],
     ['us-west-1', 'US West (N. California)'],
     ['us-west-2', 'US West (Oregon)'],
     ['ap-south-1', 'Asia Pacific (Mumbai)'],

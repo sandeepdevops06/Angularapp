@@ -17,23 +17,23 @@ const SHARE_MOUNT_GUIDE_URL =
 const NUCLIO_GUIDE =
     'https://openvinotoolkit.github.io/cvat//docs/administration/advanced/installation_automatic_annotation/';
 const CANVAS_BACKGROUND_COLORS = ['#ffffff', '#f1f1f1', '#e5e5e5', '#d8d8d8', '#CCCCCC', '#B3B3B3', '#999999'];
-  // import 'core-js/es6/symbol';
-// import 'core-js/es6/object';
-// import 'core-js/es6/function';
-// import 'core-js/es6/parse-int';
-// import 'core-js/es6/parse-float';
-// import 'core-js/es6/number';
-// import 'core-js/es6/math';
-// import 'core-js/es6/string';
-// import 'core-js/es6/date';
-// import 'core-js/es6/array';
-// import 'core-js/es6/regexp';
-// import 'core-js/es6/map';
-// import 'core-js/es6/weak-map';
-// import 'core-js/es6/set';
+   import 'core-js/es6/symbol';
+ import 'core-js/es6/object';
+ import 'core-js/es6/function';
+ import 'core-js/es6/parse-int';
+ import 'core-js/es6/parse-float';
+ import 'core-js/es6/number';
+ import 'core-js/es6/math';
+ import 'core-js/es6/string';
+ import 'core-js/es6/date';
+ import 'core-js/es6/array';
+ import 'core-js/es6/regexp';
+ import 'core-js/es6/map';
+ import 'core-js/es6/weak-map';
+ import 'core-js/es6/set';
 
 /** IE10 and IE11 requires the following for NgClass support on SVG elements */
-// import 'classlist.js';  // Run `npm install --save classlist.js`.
+ import 'classlist.js';  // Run `npm install --save classlist.js`.
 const NEW_LABEL_COLOR = '#b3b3b3';
 const LATEST_COMMENTS_SHOWN_QUICK_ISSUE = 3;
 const QUICK_ISSUE_INCORRECT_POSITION_TEXT = 'Wrong position';

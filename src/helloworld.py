@@ -1,5 +1,6 @@
 # These are here so you can change them to customize the program
 # easily.
+#
 default_greeting = "Hello World!"
 filename = "greeting.txt"
 

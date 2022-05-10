@@ -17,11 +17,11 @@ def askyesno(question):
 def greet():
     with open(filename, 'r') as f:
         for line in f:
-            print(line.rstrip('\n'))
+            print(line.rstrip('\n')
 
 try:
     greet()
-except OSError:
+excep OSError:
     print("Cannot read '%s'!" % filename, file=sys.stderr)
     if askyesno("Would you like to create a default greeting file?"):
         with open(filename, 'w') as f:

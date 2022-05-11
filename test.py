@@ -1,12 +1,12 @@
 # Program to check if a number is prime or not
 
-numkalla = 29
+num = 29
 
 # To take input from the user
 #num = int(input("Enter a number: "))
 
 # define a flag variable
-flag = 2
+flag += 2
 
 # prime numbers are greater than 1
 if num > 1:

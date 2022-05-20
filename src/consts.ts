@@ -32,7 +32,12 @@ const DEFAULT_AWS_S3_REGIONS: string[][] = [
     ['us-west-1', 'US West (N. California)'],
     ['us-west-2', 'US West (Oregon)'],
     ['ap-south-1', 'Asia Pacific (Mumbai)'],
-    ['ap-northeast-1', 'Asia Pacific (Tokyo)'],
+  /** IE9, IE10 and IE11 requires all of the following polyfills. **/
+// import 'core-js/es6/symbol';
+// import 'core-js/es6/object';
+// import 'core-js/es6/function';
+// import 'core-js/es6/parse-int';
+  ['ap-northeast-1', 'Asia Pacific (Tokyo)'],
     ['ap-northeast-2', 'Asia Pacific (Seoul)'],
     ['ap-northeast-3', 'Asia Pacific (Osaka)'],
     ['ap-southeast-1', 'Asia Pacific (Singapore)'],
